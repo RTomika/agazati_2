@@ -1,3 +1,56 @@
+body {
+  background: url(tiktok-logo.jpg);
+}
+
+a, a:focus {
+  color: #00f2ea;
+}
+a:hover, a:active {
+  color: #ff0050;
+}
+
+.dolt {
+  font-style: italic;
+}
+
+.redText {
+  color: #ff0050;
+}
+
+#tiktok {
+  border-left: 10px solid #00f2ea;
+  border-top: 10px solid #00f2ea;
+  border-bottom: 10px solid #ff0050;
+  border-right: 10px solid #ff0050;
+  padding: 5px;
+}
+
+p {
+  color: white;
+}
+
+#firstText {
+  font-size: 28px;
+}
+
+main {
+  background-color: black;
+  width: 80%;
+  padding: 25px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+h2 {
+  color: white;
+}
+
+
 footer {
   background-color: black;
   padding-top: 25px;
@@ -6,6 +59,17 @@ footer {
 
 #app {
   max-height: 50vh;
+  display: block;
+  margin-inline: auto;
+  margin-block: 30px;
+  width: 50%;
+}
+
+.csatorna_leiras {
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 25px;
 }
 
 td {
